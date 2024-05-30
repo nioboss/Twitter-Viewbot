@@ -35,7 +35,7 @@ def title_loop():
     # Nhận Code Tool Theo Yêu Cầu - Zalo: 0896502726 - Tele: @nio2k9
     global rps, rpm, thanhcongs, thatbais, ycs
     while True:
-        os.system(f'title Twitter Viewbot by @__TrnifyAI ^I Success: {thanhcongs} I Fails: {thatbais} I Rpm: {rpm}' if os.name == 'nt' else '')
+        os.system(f'title Twitter Viewbot by @__nioAI ^I Success: {thanhcongs} I Fails: {thatbais} I Rpm: {rpm}' if os.name == 'nt' else '')
         now = datetime.now().strftime("%H:%M:%S")
         print(Colorate.Horizontal(Colors.blue_to_white, f"[{now}] {thanhcongs} {thatbais}"))
         time.sleep(2)
